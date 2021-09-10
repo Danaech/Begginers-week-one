@@ -1,43 +1,218 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title></title>
-        <link rel="stylesheet" type"text/css" href="css/styles.css">
-    </head>
-<body>
-    <div class="yellowDiv">
-        <h1>Hello Universe!</h1>
-
-        <h2>Welcome to my site!</h2>
-        
-        <img src="duck.jpg" alt="A picture of a duck." width="200px">        
-    </div>
-<div class="blueDiv">
-    <p>I am currently learning to code with <a href="http://www.youtube.com"> Code First Girls</a> . Going over everything from how the 
-        internet works, to creating websites and version control with git. A lot to cover in only 8 weeks!
-        Everyone should learn to code, here are some pretty good reasons why...</p>
-    <ol>
-        <li> HTML is cool</li> 
-        <li id="lower">is cooler</li>
-        <li id="lowest">JS is the best</li>
-    </ol>
+   <head>
+      <title>17-Sustainable-Development-Goals.gr</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="css/stylesgoals1.css">
+      <link type="text/html" href="petitions.html">
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <a class="navbar-brand" href="#"></a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+               <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Get Involved
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item" href="petitions.html">Petitions</a>
+                     <a class="dropdown-item" href="https://www.undp.org/careers">Careers</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="https://youtu.be/dQw4w9WgXcQ">Webinars</a>
+                  </div>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Contact Us  
+                  </a> 
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="https://www.instagram.com/unitednations/" class="badge2">Instagram</a>
+                    <a class="dropdown-item" href="https://www.facebook.com/SustDev" class="badge1">Facebook</a>
+                    <a class="dropdown-item" href="https://twitter.com/SustDev" class="badge3">Twitter</a>
+                    <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="https://sso.unite.un.org/adfs/ls/?client-request-id=2b99c497-ad63-a79f-ad3c-0dd4ad49bf98&username=&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=estsredirect%3d2%26estsrequest%3drQIIAdNiNtQztFIxgAAjXRCpa5CWZqibnApiIYEiIS6B6Udmaievnb98rQ3vlbWe-2fMYmQrzdPLL0pfxSifUVJSUGylr59fWpKTn5-tl5-Wlpmcqpecn6ufX56ov4OR8QIj4wtGxlVM5mbG5mZm5uZGRoZGhsYGRibGBnqmRqmGSalJ5rqmKcbJuibJFqm6iWaWybrmxmaWSWmWhqlJKUa3mPj9HUtLMoxARH5RZlXqJybOtPyi3PiC_OKSWczZLsklPi75jukujk5BBt5heYHh6T5FQZUeIcaheZmReRW6RV4mxRUlRVluuXlRSV4ZFemZIb6exemO6Z5uWU4hRhmOBWGF5lmhhUl5kS554W7Jxn7Oef6lUYHhJR7-lvF-WWbxJpaW5h7J8QarmIkKtE3MbMAAyM3PO8XMll-QmpeZcoGF8QEL4ysWHgNmKw4OLgEGCQYFhh8sjItYgeHbPeMP--1ML_cpSrLbPxkeZjjFql9mbpGeWZleVhVZEFhaGeYZmWeQXeTqVxqkbeCbFhkQUFZZlqidYVjpW-Jra2hlOIGNcQIb2y42Tg5mAQYlZucAwxdsjB_YGDvYGXZxEoqjW1wiRgZGhroGlkCkYGBhZWhmZWoUdYGb8QAvAwA1#" class="badge4">E-mail</a>
+                  </div>
+                 </div>   
+               </li>
+            </ul>
+            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+               <div class="btn-group" role="group">
+                  <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Donate 
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                     <h6>What can YOU do now</h6>
+                     <p> Take action by <a href="https://give.undp.org/give/120717/#!/donation/checkout">making a donation</a> today to support our global efforts.<a class="dropdown-item"></a></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </nav>
+      <h1> 17 SUSTAINABLE DEVELOPMENT GOALS </h1>
+      <h2>By the United Nations</h2>
+      <strong>
+         <h4><b>WHAT ARE THE SUSTAINABLE DEVELOPMENT GOALS?</b></h4>
+      </strong>
+      <div> <div class="general">
+        <p> 
+        The Sustainable Development Goals, adopted by the United Nations in 2015 are a universal call to action! They are designed to end poverty, hunger, discrimination and much more, to ensure that by 2030 all people enjoy peace and prosperity
+    
+        It is recognized that action in one area will affect outcomes in others, and that development must balance social, economic and environmental sustainability.
+    
+        The creativity, knowhow, technology and financial resources from all of society is necessary to achieve the SDGs in every context, <a href="read-more.html">...read more</a>
+    </p>
 </div>
+ <br><br>
+      <div class="card-deck">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://static.dw.com/image/53765476_401.jpg" alt="Card image cap">
+        <div class="card-body">
+            1.<h5 class="card-title">No More Poverty</h5>
+          <p class="card-text">End poverty in all its forms all around the globe</p>
+        </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Card image cap">
+            <div class="card-body">
+                2.<h5 class="card-title">No More Hunger</h5>
+              <p class="card-text">End worlwide hunger and improved allocation of food</p>
+            </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://icrcavarchiveprod.blob.core.windows.net/imagepublic/V-P-PK-E-00086_500.JPG" alt="Card image cap">
+                <div class="card-body">
+                    3.<h5 class="card-title">Health And Hygiene</h5>
+                  <p class="card-text">Access to health care for all and promotion of a balanced lifestyle</p>
+                </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="https://img.freepik.com/free-photo/rural-indian-child-studying-home_75648-595.jpg?size=626&ext=jpg" alt="Card image cap">
+                    <div class="card-body">
+                        4.<h5 class="card-title">Access To Education</h5>
+                      <p class="card-text">Free and accessible quality education everywhere</p>
+                    </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://c.ndtvimg.com/2021-08/fk4eqo3s_afghan-women-reuters_625x300_17_August_21.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            5.<h5 class="card-title">Gender Equality</h5>
+                          <p class="card-text">Equal rights for everyone regardless of gender</p>
+                        </div>
+                    </div>
+                    </div>
+<br><br>
 
+                     <div class="card-deck">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-63952,resizemode-1,msid-46792237/magazines/panache/water-is-indeed-precious-for-the-body.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                6.<h5 class="card-title">Access To Water</h5>
+                              <p class="card-text">Available clean water for drinking and sanitation for all</p>
+                              </div>
+                              </div>
+                              <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="https://i.guim.co.uk/img/media/0a5b02b1b8a5fe0995793e901d9f35dc8d581b8d/38_315_5559_3335/master/5559.jpg?width=445&quality=45&auto=format&fit=max&dpr=2&s=1f169b452eb380924e1f6c2cb29d06f4" alt="Card image cap">
+                                <div class="card-body">
+                                    7.<h5 class="card-title">Affordable Energy</h5>
+                                  <p class="card-text">Access to reliable and sustainable energy for all</p>
+                                </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="https://cdn2.hubspot.net/hubfs/2631950/Between%20Blog/Mal%20ambiente%20laboral/mal%20ambiente%20laboral.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        8.<h5 class="card-title">Decent Work</h5>
+                                      <p class="card-text">Decent work conditions and economic growth for all</p>
+                                    </div>
+                                    </div>
+                                    <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="https://stephenraymentuk.files.wordpress.com/2017/05/big-construction-project.jpg?w=648" alt="Card image cap">
+                                        <div class="card-body">
+                                            9.<h5 class="card-title">Infrastracture And Industry</h5>
+                                          <p class="card-text">Resiliant infrastracture and promotion of sustainable industrialization</p>
+                                        </div>
+                                        </div>
+                                        <div class="card" style="width: 18rem;">
+                                            <img class="card-img-top" src="https://i.cbc.ca/1.5255500.1567120649!/fileImage/httpImage/robson-square-wheelchair-ramp-concern.jpg" alt="Card image cap">
+                                            <div class="card-body">
+                                                10.<h5 class="card-title">Reduced Inequalities</h5>
+                                              <p class="card-text">Inclusivity and equality among people and countries</p>
+                                            </div>
+                                            </div>
+                    </div>
+<br><br>
+                    <div class="card-deck">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="https://www.build-review.com/wp-content/uploads/2020/01/sustainable-building.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                11.<h5 class="card-title">Sustainability</h5>
+                              <p class="card-text">Innovative sustainable cities and lifestyle</p>
+                            </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="https://www1.undp.org/content/dam/undp/sdg/covers/sdg-cover-12.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    12.<h5 class="card-title">Responsible Consumption And Production</h5>
+                                  <p class="card-text">Sustainable consumption and production and control of waste</p>
+                                </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="https://ec.europa.eu/jrc/sites/jrcsh/files/styles/normal-responsive/public/adobestock_313426278.jpeg?itok=4DuvnwWb" alt="Card image cap">
+                                    <div class="card-body">
+                                        13.<h5 class="card-title">Climate Action</h5>
+                                      <p class="card-text">Urgent actions to combat climate change</p>
+                                    </div>
+                                    </div>
+                                    <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="https://idsb.tmgrup.com.tr/ly/uploads/images/2020/06/26/40681.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                            14.<h5 class="card-title">Aquatic Ecosystems</h5>
+                                          <p class="card-text">Protection of marine life</p>
+                                        </div>
+                                        </div>
+                                        <div class="card" style="width: 18rem;">
+                                            <img class="card-img-top" src="https://media.fromthegrapevine.com/assets/images/2015/7/gazelle-in-grassy-field.jpg.480x0_q71_crop-scale.jpg" alt="Card image cap">
+                                            <div class="card-body">
+                                                15.<h5 class="card-title">Land Ecosystems</h5>
+                                              <p class="card-text">Protection and restortion od terrestrial biodiversity</p>
+                                            </div>
+                                            </div>
+    
+                    </div>
+ <br><br>
+ <div><div class="lasttwo">
+                     <div class="card-deck">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="https://ggsc.s3.amazonaws.com/images/uploads/What_Can_We_Learn_from_the_Worlds_Most_Peaceful_Societies.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                16.<h5 class="card-title">Peace, Justice, Institutions</h5>
+                              <p class="card-text">Peaceful and sustainable societies with justice and facilities for all</p>
+                            </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="https://image.freepik.com/free-photo/couple-holding-hands-green-meadow_1150-26188.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    17.<h5 class="card-title">Global Partnership</h5>
+                                  <p class="card-text">Strengthening the means and relations, collaboration and unity of nations for sustainable development</p>
+                                </div>
+                                </div> <br><br>
 
-
-<div>
-    <i>
-        <h2>What do you need to create a website?</h2>
-    </i>
-    <p>Not much!</p>
-    <ul>
-        <li>A computer (always a good start)</li>
-        <li>A text editor (I am using atom)</li>
-        <li>A web browser (I am using chrome)</li>
-        <li>Some HTML, CSS and JS files</li>
-    </ul>
-    <br>
-    <p>Follow my progress on <a href="http://www.github.com/CodeFirstGirls">github</a></p>
-</div>
-</body>
+                    </div>
+</div>               
+      </div>
+   </body>
 </html>

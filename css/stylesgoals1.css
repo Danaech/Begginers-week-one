@@ -14,26 +14,15 @@ h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(13, 72, 112);
 }
-.badge1{
-    color:blue;
-}
-.badge2{
-    color:#b00b69;
-}
-.badge3{
-    color: rgb(66, 152, 192);
-}
-.badge4{
-    color:darkslategray;
-}
 ​
-.general{   font-size: 17px;
+.general{   
+    font-size: 17px;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 400px;
     margin-bottom: 10px;
-​
-}
+​}
+
 h4{
     font-size: 17px;
     margin-top: 30px;
@@ -56,22 +45,9 @@ h4{
     margin-left: 360px;
     margin-right: 360px;
 }
-table {
-    border-collapse: collapse;
-    font-size: 12px;
-  }
-td {
-    border: 2px solid rgb(68, 67, 67);
-    padding: 0.5rem;
-    text-align: left;
+
+h6{
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
 }
-td:hover {
-    background-color: rgb(209, 209, 248);
-}
-body {
-    background-color: rgb(236, 244, 250);
-}
-a{
-    color: blue;
-}
-​
