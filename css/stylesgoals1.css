@@ -56,3 +56,22 @@ h4{
     margin-left: 360px;
     margin-right: 360px;
 }
+table {
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+td {
+    border: 2px solid rgb(68, 67, 67);
+    padding: 0.5rem;
+    text-align: left;
+}
+td:hover {
+    background-color: rgb(209, 209, 248);
+}
+body {
+    background-color: rgb(236, 244, 250);
+}
+a{
+    color: blue;
+}
+​
